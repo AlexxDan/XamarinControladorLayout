@@ -10,8 +10,8 @@ namespace ControlesLayout
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new TipoAlerta());
-            MainPage = new TipoAlerta();
+            MainPage = new NavigationPage(new PaginaEstilo());
+            //MainPage = new TipoAlerta();
         }
 
         protected override void OnStart()
