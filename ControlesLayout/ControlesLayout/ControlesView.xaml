@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlesLayout.ControlesView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Controles Dinamicos"
+                   FontSize="Large"
+                
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="caja"
+                   Placeholder="Numero botones....."/>
+            <Button x:Name="botonesgenerar"
+                    Text="Generar botones"/>
+            <ScrollView Orientation="Vertical">
+                <StackLayout x:Name="contenedor"
+                         BackgroundColor="Yellow"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"/>
+            </ScrollView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlesLayout.TipoAlerta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tipo Alertas Xamarin"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand"  FontSize="40"/>
+            <Button x:Name="botonsimple" Text="Alerta simple" 
+                    HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="botonokcancel" Text="Alerta OK Cancel" 
+                    HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="botonopciones" Text="ALerta opciones"
+                    HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="botonmodal" Text="Alerta Modal"
+                    HorizontalOptions="FillAndExpand"/>
+
+            <Label x:Name="lblrespuesta" FontSize="40" TextColor="OrangeRed"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

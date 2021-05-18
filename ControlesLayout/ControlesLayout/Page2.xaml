@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlesLayout.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Control Slider"
+                   FontSize="20"
+                HorizontalOptions="Center"/>
+            <Stepper x:Name="stepper1" Increment="0.1" Minimum="0"
+                     Maximum="10" VerticalOptions="CenterAndExpand"></Stepper>
+            <Picker x:Name="controlpicker" VerticalOptions="CenterAndExpand"
+                    Title="Ingredientes"></Picker>
+            <Slider Minimum="0" Maximum="100"
+                    Value="2" x:Name="controlSlider"
+                    VerticalOptions="CenterAndExpand" ></Slider>
+            <Label TextColor="Blue" FontSize="Large"
+                   x:Name="lblvalor"
+                   VerticalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
